@@ -1,9 +1,10 @@
 """Guía inicial de Python (Variables)"""
 
+#Variables
 nombre = "Karla"
 apellido = "Miranda"
 
-#Iniciando variablesen un print
+#Formas de escribir el print
 
 #Con coma
 print ("Hola, mi nombr es ", nombre, " y mi apellido es", apellido)
