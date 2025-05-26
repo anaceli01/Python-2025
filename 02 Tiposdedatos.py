@@ -49,7 +49,28 @@ print (descripcion.split()) #Imprime separando carácter por carácter
 
 #ARREGLO NUMÉRICO
 v = [1, 2, 3, 4, 5] #Inicializando un arreglo numérico
-print (v[0]) #
+print (v[0]) #Imprime el primer número
+
+#FUNCION LEN
+print (f'La palabra {carrera} tiene', len (carrera), 'caracteres')
+
+#VALORES BOOLEANOS
+interruptor = True
+ampolleta = False
+
+#FUNCIÓN TYPE PERMITE SABER EL TIPO DE DATO QUE SE UTILIZA
+print (type(interruptor))
+
+#COMPARATIVA DE VALORES LÓGICOS
+'''print(1<10)
+print(100<=20)
+print(100==100)'''
+
+print(bool('')) #Arrojará falso
+print(bool(1)) #Arrojará verdadero
+print(bool(0)) #Arrojará falso
+print(bool('Hola')) #Arrojará verdadero
+
 
 
 

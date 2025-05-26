@@ -25,7 +25,7 @@ print (f"Hola soy de {ciudad}, {region}, {pais}")
 # \n ES UN SALTO DE LÍNEA
 
 print (nombre)
-nombre=input("ingrese su nombre: \n")
+nombre=str(input("ingrese su nombre: \n"))
 print (f"Hola, mi nombre es: {nombre}")
 
 print (nombre)
