@@ -11,8 +11,8 @@ print(tuplita)
 print(estudiantes)'''
 
 #MÉTODO INDEX EN TUPLAS
-print(estudiantes.index('Carlos')) # .index() INDICA LA POSICIÓN EN LA QUE ESTÁ 'CARLOS'
+print(estudiantes.index('Carlos')) # .index() indica la posición en la que está 'Carlos'
 
 #MÉTODO SORTED EN TUPLAS
-print(sorted(estudiantes)) # sorted() (ORDENA ELEMENTOS Y LO PASA A LISTA)
+print(sorted(estudiantes)) # sorted() (ordena elementos y lo pasa a lista)
 

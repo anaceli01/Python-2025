@@ -23,11 +23,11 @@ ramos.append('Introducción a la Matemática')
 print(ramos)
 
 #MODIFICAR ELEMENTOS A LA LISTA
-ramos[1] = 'Comunicación' # estoy pasando la posición del elemento a modificar
+ramos[1] = 'Comunicación' #estoy pasando la posición del elemento a modificar
 print(ramos)
 
 #OTRA FORMA DE INSERTAR UN ELEMENTO A LA LISTA (INSERT)
-ramos.insert(0,'Algebra') # inserta un elemento 'Algebra', en la primera Posición (0)
+ramos.insert(0,'Algebra') #inserta un elemento 'Algebra', en la primera Posición (0)
 print(ramos)
 
 #ELIMINAR EL ÚLTIMO ELEMENTO DE UNA LISTA

@@ -2,6 +2,7 @@
 colores = {'Verde', 'Rojo', 'Azul', 34}
 colorcitos = {'Azul', 'Naranjo'}
 print(colores)
+print(colorcitos)
 
 #AGREGANDO UN NUEVO ELEMENTO AL SET (MÉTODO ADD)
 colores.add('Blanco')

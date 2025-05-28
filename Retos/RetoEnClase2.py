@@ -1,12 +1,11 @@
 #Diccionario
-Inventario = {
+inventario = {
     'Manzana' : (4000, 5000, 6000),
     'Platano' : (2000, 3000, 3000),
     'Cereza' : (3500, 4500, 2500)
 }
 
-
-print(Inventario.keys)
+print(inventario.keys())
 
 
 tipos_de_frutas = ['Manzana', 'Platano', 'Cereza']

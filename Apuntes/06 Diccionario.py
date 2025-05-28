@@ -13,6 +13,7 @@ paciente = {
     }
 }
 
+#IMPRESIÓN DE DICCIONARIO
 print(paciente)
 
 #OTRA FORMA DE DECLARAR UN DICCIONARIO
