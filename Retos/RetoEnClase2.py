@@ -5,7 +5,10 @@ inventario = {
     'Cereza' : (3500, 4500, 2500)
 }
 
-print(inventario.keys())
+print(inventario)
+
+precios_platano = set(inventario['Platano'])
+print(f'Lista de precios únicos del plátano : {precios_platano}')
 
 
 tipos_de_frutas = ['Manzana', 'Platano', 'Cereza']
