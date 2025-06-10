@@ -1,0 +1,21 @@
+
+
+resumen = str(input('Ingrese su resumen, debe tener como máximo 50 carácteres: \n'))
+
+
+
+resumen_2 = resumen<=50
+print(f'El resumen tiene menos o igual que 50 carácteres {bool(resumen_2)}')
+
+
+resumen_mayuscula = resumen.upper()
+resumen_minuscula = resumen.lower()
+
+resumen_contados = len(resumen)
+print(resumen_contados)
+print(f'Resumen en minúsculas: {resumen_minuscula}')
+print(f'Resumen en mayúsculas: {resumen_mayuscula}')
+print(f'Cantidad de letras e repetidas: {resumen.count('e')}')
+print(resumen[0-14])
+
+
