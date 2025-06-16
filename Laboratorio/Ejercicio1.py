@@ -44,7 +44,7 @@ vmax = max(sma, scl, sse, sto)
 vmin = min(sma, scl, sse, sto)
 
 # e. Promedio del precio unitario de las herramientas, redondeado a 2 decimales 
-ppu = pma + pcl + pse + pto / 4
+ppu = (pma + pcl + pse + pto) / 4
 
 # f. Obtener el IVA (19%) del total de las herramientas ingresadas al sistema. 
 i = (sma + scl + sse + sto) * 19 / 100
