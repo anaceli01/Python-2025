@@ -17,5 +17,5 @@ print(f'La cantidad de a repetidas es : {ocurrencia_a}')
 print(f'La cantidad de A repetidas es : {ocurrencia_A}')
 
 lista_1 = texto.split()
-lista_2 = lista_1.join()
+lista_2 = ','.join(lista_1)
 print(lista_2)

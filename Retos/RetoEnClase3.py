@@ -1,9 +1,10 @@
-num = 500
+num = list(range(500, 99, -3))
 
-while num >= 100:
-    print(num)
-    num -= 3
+for n in num:
+    print(n)
 
 suma = sum(num)
-    
-print(suma)
+promedio = suma / len(num)
+
+print(f'La suma de los número es: {suma}')
+print(f'El promedio de los números es: {promedio}')

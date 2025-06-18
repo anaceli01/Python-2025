@@ -87,4 +87,3 @@ print(f'Reporte de pago: \n \n Irene: \n Total de ventas: ${total_ventas_i} \n P
 
 
 
-
