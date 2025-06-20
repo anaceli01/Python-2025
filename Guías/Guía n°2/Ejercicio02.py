@@ -4,7 +4,7 @@
 #el resultado
 total = 0
 
-valor1 = 500 
+valor1 = list(range(500, 800, 10))
 #se suman de 10 en 10
 
 valor2 = 456  
@@ -13,11 +13,8 @@ valor2 = 456
 
 # Bucle para calcular la sumatoria
 while valor1 <= 800 or valor2 <= 800:
-    if valor1 <= 800:
         total += valor1
-        valor1 += 10
-    if valor2 <= 800:
-        total += valor2
+        tota2 += valor2
         valor2 -= 2
 
 # Mostrar el resultado

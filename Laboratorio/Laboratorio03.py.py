@@ -34,7 +34,7 @@ try:
     temp = registro[5700000]['Temperatura']
     if temp <= 10:
         registro[5700000]['Clima'] = 'Frío'
-    elif temp <= 10 and temp <= 15:
+    elif temp >= 10 and temp <= 15:
         registro[5700000]['Clima'] = 'Templado'
     else:
         registro[5700000]['Clima'] = 'Cálido'
@@ -48,7 +48,7 @@ try:
     temp = registro[5770000]['Temperatura']
     if temp <= 10:
         registro[5770000]['Clima'] = 'Frío'
-    elif temp <= 10 and temp <= 15:
+    elif temp >= 10 and temp <= 15:
         registro[5770000]['Clima'] = 'Templado'
     else:
         registro[5770000]['Clima'] = 'Cálido'
@@ -62,7 +62,7 @@ try:
     temp = registro[5790000]['Temperatura']
     if temp <= 10:
         registro[5790000]['Clima'] = 'Frío'
-    elif temp <= 10 and temp <= 15:
+    elif temp >= 10 and temp <= 15:
         registro[5790000]['Clima'] = 'Templado'
     else:
         registro[5790000]['Clima'] = 'Cálido'
