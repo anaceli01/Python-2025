@@ -1,4 +1,3 @@
-
 """Camilo y Karla"""
 
 #Lee el texto ingresado,verificando que no este vacio

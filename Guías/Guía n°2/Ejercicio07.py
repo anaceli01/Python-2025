@@ -1,4 +1,4 @@
-#Número factorial
+#Ejercicio 7 - Número factorial
 
 #Camilo y Karla
 

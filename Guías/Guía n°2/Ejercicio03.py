@@ -1,6 +1,4 @@
-#Reporte de pago
-
-#Camilo y Karla
+"""Camilo y Karla"""
 
 #Diccionario de los empleados
 
